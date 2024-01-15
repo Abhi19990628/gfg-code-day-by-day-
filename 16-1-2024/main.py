@@ -40,33 +40,33 @@ else:
     
 # # # find the postive and negtive num as list 
     
-# # list =[1,-1,0,2,3]
-# # for i in list:
-# #     if i >0:
-# #         print("postive :", i)
-# #     elif i==0:
-# #         print("zero num :",i)
-# #     else:
-# #         print ("negtive num ",i)
+list =[1,-1,0,2,3]
+for i in list:
+     if i >0:
+         print("postive :", i)
+     elif i==0:
+        print("zero num :",i)
+     else:
+         print ("negtive num ",i)
         
         
 
 # # # print the all num is odd 
         
         
-# # lower=int(input("Enter the lower limit for the range:"))
-# # upper=int(input("Enter the upper limit for the range:"))
-# # for i in range(lower,upper+1):
-# #     if(i%2!= 0):
-# #         print(i)
+lower=int(input("Enter the lower limit for the range:"))
+upper=int(input("Enter the upper limit for the range:"))
+for i in range(lower,upper+1):
+    if(i%2!= 0):
+        print(i)
         
 # # # print the all num is even 
 
-# # lower=int(input("enter lower value is :"))
-# # upper=int(input("enter upper value is :"))
-# # for i in range (lower,upper+1):
-# #     if i % 2==0:
-# #         print(i,"is even num ")
+lower=int(input("enter lower value is :"))
+upper=int(input("enter upper value is :"))
+for i in range (lower,upper+1):
+     if i % 2==0:
+         print(i,"is even num ")
         
         
         
@@ -117,3 +117,9 @@ print("The number of digits in the number are:",count)
 
 num = int(input("value of count"))
 print(len(str(num)))
+
+# make table for small childer 
+
+n= int(input("enter the number of table which you want :"))
+for i in range (1, 11):
+    print( n, "x" , i , "=", n*i)
