@@ -46,3 +46,6 @@ for n in range(num2):
 union = list(set().union(l1,l2))
  
 print('The Union of two lists is:',union)
+
+
+# new code starting on 18-1-2024
