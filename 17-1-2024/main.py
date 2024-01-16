@@ -71,6 +71,45 @@ for j in b:
            print("sum of all postive odd :", sum2) 
     else:
         sum3=sum3+j
-        print("sum of all postive negtive no :", sum3)       
- 
+        print("sum of all postive negtive no :", sum3)  
+
+
+a=[1,2,3,444,56,78,-88,-12,];i=0
+x=[i for i in a if i >0 and i%2==0]
+y=[i for i in a if i >0 and i%2!=0]
+z=[i for i in a if i<0]
+print("even positive number sum :", sum(x))
+print("odd positive number sum :" , sum(y))
+print("negtive num   sum :" ,sum(z))
+
+
+# sort num as using 2 list
+
+a=[1,23,445,5678,5,43,22]
+b=[23,-12,23,45,67,77,53]
+c=a+b
+c.sort()
+print("sort num is ", c)
+
+a=[]
+n=int(input("enter no "))
+for x in range (0, n):
+     element=int(input("number"))
+     a.append(element)
+    
+    
+# Python Program to Swap the First and Last Element in a List
+    
+temp=a[0]
+a[0]=a[n-1]
+a[n-1]=temp
+print("new list is")
+print(a)
+
+a=[1,3,5,6,4]
+temp=a[0]
+a[0]=a[-1]
+a[-1]=temp
+print("new list is")
+print(a)
       
